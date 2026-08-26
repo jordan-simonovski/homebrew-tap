@@ -1,6 +1,6 @@
 cask "onn" do
-  version "0.2.0"
-  sha256 "6a30326e24436b8fe5013143d390eb9b78ce1b664d3e74abade741fa6b0c2852"
+  version "0.2.1"
+  sha256 "31be8fdf746236cebf4e64d24453c575f05510bb612f1371ba9d5e1205ab3588"
 
   url "https://github.com/jordan-simonovski/macos-outage-ticker/releases/download/v#{version}/ONN.dmg"
   name "ONN — Outage News Network"
