@@ -6,25 +6,25 @@ cask "emoji-tools" do
     end
   end
 
-  version "0.10.0"
+  version "0.11.0"
 
   on_macos do
     on_arm do
-      sha256 "2070edbf0ce2317482e60b051526ac0c4d8c0f77d1a67ef7bac7a5b85748364a"
+      sha256 "1b6eef3684912ce3df712452c9f9c36bc1f94277592260880355944f939ec045"
       url "https://github.com/jordan-simonovski/emoji-tools/releases/download/v#{version}/emoji-tools_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "53ef2db702544f9877ccca2eba86375d7016d2791ca1b8091917f80d4b2568e6"
+      sha256 "95750577817eb4f8a75c999eed56a94621fb833c99cc7438c5d871cdf1829598"
       url "https://github.com/jordan-simonovski/emoji-tools/releases/download/v#{version}/emoji-tools_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "6db4774762e27a16c8829e9a09e0197d9ad2604198d351226f11e5d41ddff065"
+      sha256 "362b02e0a9ea05a4fb70fc9826c24a06daf18fdfe10c3873db7f684ca049ed3f"
       url "https://github.com/jordan-simonovski/emoji-tools/releases/download/v#{version}/emoji-tools_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "3974633a701fad8ab680d1a4ac846229c0a5f5b7ec50e3dec01aca0ceebff829"
+      sha256 "46f81f1b7e19d0ca62f63586aeeef18ba415bd834a5efe85446535aedc28ed30"
       url "https://github.com/jordan-simonovski/emoji-tools/releases/download/v#{version}/emoji-tools_linux_amd64.tar.gz"
     end
   end
